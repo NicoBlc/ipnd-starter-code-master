@@ -1,24 +1,55 @@
-/* This is a CSS comment. Notice that CSS comments are
-enclosed by different characters than HTML comments. */
+/* This is a CSS comment. I will use comments to explain how I build my project */
 
 /* CSS allows you to give your page style (colors, shapes, fonts, etc.)
 You can apply CSS elements to entire HTML classes. Review Lesson 1.3
 if you need a refresher about how to do this. */
-blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+
+.mainheader {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* Picked color Beige #F5F5DC from http://www.w3schools.com/cssref/css_colors.asp */
+  background-color: #F5F5DC;
 }
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+
+.articleheader {
+  padding: 15px 0px 0px 0px;
+  /* Picked color Black #000000 from http://www.w3schools.com/cssref/css_colors.asp */
+  background-color: 	#000000;
 }
-blockquote p {
-  display: inline;
+
+/* Picked color White for visibility on all Black background headers */
+.articleheader h2 {
+  /* Picked color White #FFFFFF from http://www.w3schools.com/cssref/css_colors.asp */
+  color: #ffffff;
+  /* Overriding some default Bootstrap on margin for h2 */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* Adding some padding for h2 so that is aligns nice inside the black background */
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.articletext {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  /* Picked color Beige #F5F5DCfrom http://www.w3schools.com/cssref/css_colors.asp */
+  background-color: #F5F5DC;
+}
+
+.articletext p {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* Picked color Beige #F5F5DCfrom http://www.w3schools.com/cssref/css_colors.asp */
+  background-color: #F5F5DC;
+}
+
+.articletext img {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  /* Picked color Beige #F5F5DCfrom http://www.w3schools.com/cssref/css_colors.asp */
+  background-color: #F5F5DC;
 }

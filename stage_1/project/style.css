@@ -35,6 +35,7 @@ if you need a refresher about how to do this. */
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
+  padding-right: 15px;
   /* Picked color Beige #F5F5DCfrom http://www.w3schools.com/cssref/css_colors.asp */
   background-color: #F5F5DC;
 }
@@ -52,4 +53,11 @@ if you need a refresher about how to do this. */
   padding-bottom: 20px;
   /* Picked color Beige #F5F5DCfrom http://www.w3schools.com/cssref/css_colors.asp */
   background-color: #F5F5DC;
+}
+
+blockquote {
+  font-size: 1em;
+  font-style: italic;
+  border-left: 10px solid #000000;
+  background-color: #FFEBCD;
 }

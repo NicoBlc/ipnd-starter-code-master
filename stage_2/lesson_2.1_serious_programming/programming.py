@@ -9,5 +9,7 @@
 
 print 3
 print 1 + 1
+# Adding my own code to follow along with the course.
+print 52 * 3 + 12 * 9
 
 # Add your own code and notes here

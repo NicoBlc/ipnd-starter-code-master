@@ -1,0 +1,12 @@
+/* Adding padding to body for vivisibility below the nav bar */
+body {
+  padding-top: 50px;
+}
+/* Adding extra styling for basic starter template */
+/* Starter template replaced with my own class mainheader */
+/*
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+*/

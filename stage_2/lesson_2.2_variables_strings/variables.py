@@ -16,3 +16,31 @@ nanostick = speed_of_light * billionth * 100
 print nanostick
 
 # Add your own code and notes here
+
+
+# First assignment in lecture 2.2
+# Given the variables defined here, write Python
+# code that prints out the distance, in meters,
+# that light travels in one processor cycle.
+
+# speed_of_light in meters per second
+# cycles_per_second is 2.7 GHz
+
+speed_of_light = 299792458.0 # meters per second
+cycles_per_second = 2700000000.0 # 2.7 GHz processor on iMac
+distance_one_processor_cycle = speed_of_light / cycles_per_second # Solution ~0.1 meters
+print distance_one_processor_cycle
+
+# cycles_per_second is 2.8 GHz
+# Changing a value of a variable will change the output.
+cycles_per_second = 2800000000.0 # 2.8 GHz processor on iMac
+distance_one_processor_cycle = speed_of_light / cycles_per_second # Solution ~0.1 meters
+print distance_one_processor_cycle
+
+
+# Write python code that defines the variable
+# age to be your age in years, and then prints
+# out the number of days you have been alive.
+age = 33
+days = age * 365
+print days
